@@ -1,0 +1,60 @@
+body {
+    margin-top: 3%;
+}
+ul {
+    list-style-type: none;
+    background-color: lightgray;
+    text-align: center;
+    padding-left: 0;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+li {
+    border-bottom: 1px solid black;
+}
+#this {
+    background-color: white;
+}
+.container {
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+}
+#menu {
+    padding-right: 0;
+}
+button {
+    width: 100%;
+    text-align: center;
+    margin: 3%;
+    padding: 0;
+}
+#add {
+    background-color: #c7e8ac;
+    }
+#del {
+    background-color: #cccccc;
+}
+#exp {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
+}
+.head {
+    font-weight: bold;
+}
+label {
+    font-weight: normal;
+}
+#tren {
+    padding-right: 0;
+    padding-left: 7%;
+}
