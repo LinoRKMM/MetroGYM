@@ -2,31 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main Page</title>
+    <title>News</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
-    <link rel="stylesheet" href="CSS/main_css.css"/>
+    <link rel="stylesheet" href="CSS/news_css.css"/>
     <link rel="stylesheet" href="CSS/menu_css.css"/>
 </head>
 <body>
 <div class="container">
     <div class="row">
-        <div id="line" class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
-            <hr align="left" size="4" color="#000000" />
-            <div id="text">
-                <p>Блок с текстом</p>
-                <p id="priv">(приветствие)</p>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <button id="post">Добавить пост</button>
+            <div id="post_plus">
+                <p class="head">Заголовок</p>
+                <input id="inhead" type="text">
+                <textarea></textarea>
             </div>
         </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
         <div id="menu" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-            <img src="Images/logo.png" alt="LOGO">
+            <a href="main.html"><img src="Images/logo.png" alt="LOGO"></a>
             <ul>
                 <li>LOGIN</li>
                 <li><a href="rights.html">Права доступа</a></li>
-                <li><a href="News.html">Мотивационная лента и новости</a></li>
+                <li id="this">Мотивационная лента и новости</li>
                 <li>Тренировки</li>
                 <li>Упражнения</li>
                 <li>База клиентов</li>

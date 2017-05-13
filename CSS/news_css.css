@@ -5,9 +5,11 @@ button {
     margin: 3%;
     padding: 0;
 }
-#add {
+#post {
     background-color: #c7e8ac;
-    }
+    width: 40%;
+    height: 6vh;
+}
 #del {
     background-color: #cccccc;
 }
@@ -25,4 +27,11 @@ label {
 #tren {
     padding-right: 0;
     padding-left: 7%;
+}
+#inhead {
+    width: 100%;
+    height: 6vh;
+}
+#post_plus {
+    border: 2px solid gray;
 }

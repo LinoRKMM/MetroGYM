@@ -1,0 +1,39 @@
+body {
+    margin-top: 3%;
+}
+ul {
+    list-style-type: none;
+    background-color: lightgray;
+    text-align: center;
+    padding-left: 0;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+li {
+    border-bottom: 1px solid black;
+}
+.container {
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 40%;
+    max-height: 40%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+}
+#menu {
+    padding-right: 0;
+}
+a:link {
+    text-decoration: none;
+}
+a {
+    color: black;
+}
+#this {
+    background-color: white;
+}
